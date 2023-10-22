@@ -1,0 +1,61 @@
+/*This adds font characteristics to the text of the main h1 header on all pages*/
+h1#adopt-and-make-2-lives-better {font-family:'Lucida Sans'; 
+                                    text-align: center; 
+                                    font-style: italic; 
+                                    font-weight: bold;
+                                }
+/*The "ul#nav" and "ul#nav li" develops the black stage background for my navigation on each page*/
+ul#nav {list-style-type: none; 
+        padding: 0; 
+        overflow: hidden; 
+        background-color: black;
+    }
+ul#nav li {float: left;
+}
+/*This defines the spacing, color, and text characteristics for my navigation buttons on each page*/
+li a {display: block; 
+        color: blue; 
+        text-align: center; 
+        padding: 16px; 
+        text-decoration: none;
+    }
+/*This adds font characteristics as well as a ridged, colored border around my main statement of text on my home page*/
+p {font-size: 18px; 
+    font-weight: bold; 
+    text-align: center; 
+    font-family:'Gill Sans';
+    padding: 10px;
+    border-style: ridge;
+    border-color: blueviolet;
+    border-width: 5px;
+    margin: 5px;
+}
+/*This adds font and text characteristics to the text of the h1 headers on my resources page*/
+h1#commonnecessities {font-family:'Lucida Sans'; 
+                        text-align: left; 
+                        font-style: italic; 
+                        font-weight: bold;
+                    }
+h1#petcare {font-family:'Lucida Sans'; 
+            text-align: left; 
+            font-style: italic; 
+            font-weight: bold;
+        }
+/*This adds an underline on my text for my small headers throughout the website*/
+h3, h2 {text-decoration: underline;
+}
+/*This adds a text color to the list items under the id "common necessities"*/
+ul#commonnecessities li {color: blueviolet}
+/*This adds a text color to the list items under the id "pet care"*/
+ul#petcare li {color: blueviolet}
+/*This adds a text color and a ridged, black border around the information a user would fill in on the form*/
+ul#form li {color: blueviolet;
+            padding: 10px;
+            border-style: ridge;
+            border-color: black;
+            border-width: 3px;
+            margin: 5px;}
+/*This adds a solid, rounded black border between my common necessities section and pet care section*/
+hr {position: relative; 
+    border: 3px solid black;
+    border-radius: 10px;}
