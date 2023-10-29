@@ -49,12 +49,13 @@ ul#commonnecessities li {color: blueviolet}
 /*This adds a text color to the list items under the id "pet care"*/
 ul#petcare li {color: blueviolet}
 /*This adds a text color and a ridged, black border around the information a user would fill in on the form*/
-ul#form li {color: blueviolet;
-            padding: 10px;
-            border-style: ridge;
-            border-color: black;
-            border-width: 3px;
-            margin: 5px;}
+form p {color: blueviolet;
+        padding: 10px;
+        border-style: ridge;
+        border-color: black;
+        border-width: 3px;
+        margin: 5px;
+        text-align: left;}
 /*This adds a solid, rounded black border between my common necessities section and pet care section*/
 hr {position: relative; 
     border: 3px solid black;
