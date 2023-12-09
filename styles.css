@@ -14,7 +14,7 @@ ul#nav li {float: left;
 }
 /*This defines the spacing, color, and text characteristics for my navigation buttons on each page*/
 li a {display: block; 
-        color: blue; 
+        color: antiquewhite; 
         text-align: center; 
         padding: 16px; 
         text-decoration: none;
@@ -35,22 +35,20 @@ h1#commonnecessities {font-family:'Lucida Sans';
                         text-align: left; 
                         font-style: italic; 
                         font-weight: bold;
+                        color: blueviolet;
                     }
 h1#petcare {font-family:'Lucida Sans'; 
             text-align: left; 
             font-style: italic; 
             font-weight: bold;
+            color: blueviolet;
         }
 /*This adds an underline on my text for my small headers throughout the website*/
 h3, h2 {text-decoration: underline;
+        color: blueviolet;
 }
-/*This adds a text color to the list items under the id "common necessities"*/
-ul#commonnecessities li {color: blueviolet}
-/*This adds a text color to the list items under the id "pet care"*/
-ul#petcare li {color: blueviolet}
 /*This adds a text color and a ridged, black border around the information a user would fill in on the form*/
-form p {color: blueviolet;
-        padding: 10px;
+form p {padding: 10px;
         border-style: ridge;
         border-color: black;
         border-width: 3px;
@@ -60,3 +58,4 @@ form p {color: blueviolet;
 hr {position: relative; 
     border: 3px solid black;
     border-radius: 10px;}
+img#dog1, img#dog2, img#dog3, img#dog4, img#dog5 {padding-top: 24px;}
