@@ -20,7 +20,7 @@ li a {display: block;
         text-decoration: none;
     }
 /*This adds font characteristics as well as a ridged, colored border around my main statement of text on my home page*/
-p {font-size: 18px; 
+p#statement {font-size: 18px; 
     font-weight: bold; 
     text-align: center; 
     font-family:'Gill Sans';
@@ -57,5 +57,6 @@ form p {padding: 10px;
 /*This adds a solid, rounded black border between my common necessities section and pet care section*/
 hr {position: relative; 
     border: 3px solid black;
-    border-radius: 10px;}
+    border-radius: 10px;
+}
 img#dog1, img#dog2, img#dog3, img#dog4, img#dog5 {padding-top: 24px;}
